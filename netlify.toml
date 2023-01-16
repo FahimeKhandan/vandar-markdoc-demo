@@ -1,7 +1,7 @@
 [build]
   command = "CI='' pnpm run build"
-  publish = "/dist"
-  base ="/dev"
+  publish = "/build"
+  base ="/dev/"
 
 [[redirects]]
   from = "/*"

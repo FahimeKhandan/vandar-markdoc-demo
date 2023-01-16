@@ -1,9 +1,9 @@
 [build]
-  command = "pnpm run build"
-  publish = "/dist"
-  base ="/dev"
+  command = "npm run build"
+  publish = "/build"
+  base ="/"
 
 [[redirects]]
   from = "/*"
-  to = "/dev/index.html"
+  to = "/index.html"
   status = 200

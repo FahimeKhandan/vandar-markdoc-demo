@@ -1,0 +1,9 @@
+[build]
+  command = "CI='' pnpm run build"
+  publish = "/dist"
+  base ="/dev"
+
+[[redirects]]
+  from = "/*"
+  to = "/dev/index.html"
+  status = 200
